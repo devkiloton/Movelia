@@ -2856,35 +2856,35 @@
         }
       },
       {
-        "HashCode": -859561803,
+        "HashCode": -1362320863,
         "Kind": "Components.Component",
-        "Name": "Movelia.Client.App",
+        "Name": "Movelia.Client.Pages.Index",
         "AssemblyName": "Movelia.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Movelia.Client.App"
+          "Common.TypeName": "Movelia.Client.Pages.Index"
         }
       },
       {
-        "HashCode": -1648684279,
+        "HashCode": -120550737,
         "Kind": "Components.Component",
-        "Name": "Movelia.Client.App",
+        "Name": "Movelia.Client.Pages.Index",
         "AssemblyName": "Movelia.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Movelia.Client.App"
+            "TagName": "Movelia.Client.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Movelia.Client.App",
+          "Common.TypeName": "Movelia.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -2951,6 +2951,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Movelia.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -859561803,
+        "Kind": "Components.Component",
+        "Name": "Movelia.Client.App",
+        "AssemblyName": "Movelia.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Movelia.Client.App"
+        }
+      },
+      {
+        "HashCode": -1648684279,
+        "Kind": "Components.Component",
+        "Name": "Movelia.Client.App",
+        "AssemblyName": "Movelia.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Movelia.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Movelia.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -3047,6 +3080,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "Movelia.Client.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 134452377,
+        "Kind": "Components.Component",
+        "Name": "Movelia.Client.Shared.MoviesList",
+        "AssemblyName": "Movelia.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MoviesList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Movelia.Client.Shared.MoviesList"
+        }
+      },
+      {
+        "HashCode": -655873926,
+        "Kind": "Components.Component",
+        "Name": "Movelia.Client.Shared.MoviesList",
+        "AssemblyName": "Movelia.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Movelia.Client.Shared.MoviesList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Movelia.Client.Shared.MoviesList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

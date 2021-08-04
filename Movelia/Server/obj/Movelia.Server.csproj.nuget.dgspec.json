@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\server\\Movelia.Server.csproj": {}
+    "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Server\\Movelia.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Client\\Movelia.Client.csproj": {
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\server\\Movelia.Server.csproj": {
+    "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Server\\Movelia.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\server\\Movelia.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Server\\Movelia.Server.csproj",
         "projectName": "Movelia.Server",
-        "projectPath": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\server\\Movelia.Server.csproj",
+        "projectPath": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Server\\Movelia.Server.csproj",
         "packagesPath": "C:\\Users\\Yarego Brozek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\server\\obj\\",
+        "outputPath": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

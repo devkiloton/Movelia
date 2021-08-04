@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace Movelia.Client.Pages
+namespace Movelia.Client.Shared
 {
     #line hidden
     using System;
@@ -89,14 +89,32 @@ using Movelia.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class MoviesList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 19 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\MoviesList.razor"
+      
+    private List<Movie> movies;
+    protected override void OnInitialized()
+    {
+        movies = new List<Movie>()
+        {
+            new Movie(){Title = "Spider Man: Far from home",ReleaseDate = new DateTime(2019, 7, 2)},
+            new Movie(){Title = "Moana",ReleaseDate = new DateTime(2016, 11, 23)},
+            new Movie(){Title = "Inception",ReleaseDate = new DateTime(2010, 7, 16)},
+        };
+    }
+    
+    
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
