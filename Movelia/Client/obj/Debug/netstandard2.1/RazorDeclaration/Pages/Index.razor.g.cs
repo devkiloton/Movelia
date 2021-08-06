@@ -97,6 +97,23 @@ using Movelia.Shared.Entities;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 10 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Index.razor"
+ 
+    private List<Movie> movies;
+ protected override void OnInitialized()
+    {
+        movies = new List<Movie>()
+        {
+            new Movie(){Title = "Spider Man: Far from home",ReleaseDate = new DateTime(2019, 7, 2)},
+            new Movie(){Title = "Moana",ReleaseDate = new DateTime(2016, 11, 23)},
+            new Movie(){Title = "Inception",ReleaseDate = new DateTime(2010, 7, 16)},
+        };
+    }   
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

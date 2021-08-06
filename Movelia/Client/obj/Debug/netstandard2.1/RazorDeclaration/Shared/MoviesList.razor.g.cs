@@ -99,16 +99,7 @@ using Movelia.Shared.Entities;
 #nullable restore
 #line 19 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\MoviesList.razor"
       
-    private List<Movie> movies;
-    protected override void OnInitialized()
-    {
-        movies = new List<Movie>()
-        {
-            new Movie(){Title = "Spider Man: Far from home",ReleaseDate = new DateTime(2019, 7, 2)},
-            new Movie(){Title = "Moana",ReleaseDate = new DateTime(2016, 11, 23)},
-            new Movie(){Title = "Inception",ReleaseDate = new DateTime(2010, 7, 16)},
-        };
-    }
+    [Parameter] public List<Movie> Movies {get; set;}
     
     
 

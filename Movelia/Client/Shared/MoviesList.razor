@@ -1,31 +1,21 @@
 <!-- If I don't use the conditional the browser will search for movies,
 but because of async method it will be a null reference -->
-@if(movies == null)
+@if(Movies == null)
 {
     <p>Loading...</p>
 }
-else if(movies.Count == 0)
+else if(Movies.Count == 0)
 {
     <p>There are no movies to show.</p>
 }
 else
 {
-    @foreach (var movie in movies)
+    @foreach (var movie in Movies)
     {
         <p>Title: <b>@movie.Title</b></p>
         <p>Release Date: <b>@movie.ReleaseDate.ToString("dd/MM/yyyy")</b></p>
     }
 }
 @code{
-    private List<Movie> movies;
-    protected override void OnInitialized()
-    {
-        movies = new List<Movie>()
-        {
-            new Movie(){Title = "Spider Man: Far from home",ReleaseDate = new DateTime(2019, 7, 2)},
-            new Movie(){Title = "Moana",ReleaseDate = new DateTime(2016, 11, 23)},
-            new Movie(){Title = "Inception",ReleaseDate = new DateTime(2010, 7, 16)},
-        };
-    }
-    
+    [Parameter] public List<Movie> Movies {get; set;}
     }
