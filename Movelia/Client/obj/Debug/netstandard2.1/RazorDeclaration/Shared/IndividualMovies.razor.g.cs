@@ -99,6 +99,7 @@ using Movelia.Shared.Entities;
 #nullable restore
 #line 6 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\IndividualMovies.razor"
  
+    //this parameter will add each movie in index to MovieList
     [Parameter]public Movie Movie { get; set;}
 
 #line default

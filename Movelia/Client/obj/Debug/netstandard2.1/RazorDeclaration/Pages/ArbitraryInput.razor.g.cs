@@ -89,8 +89,7 @@ using Movelia.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ArbitraryInput : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,19 +97,11 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 16 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Index.razor"
- 
-    private List<Movie> movies;
-    protected override void OnInitialized()
-    {
-        movies = new List<Movie>()
-        {
-            new Movie(){Title = "Spider Man: Far from home",ReleaseDate = new DateTime(2019, 7, 2)},
-            new Movie(){Title = "Moana",ReleaseDate = new DateTime(2016, 11, 23)},
-            new Movie(){Title = "Inception",ReleaseDate = new DateTime(2010, 7, 16)},
-            new Movie(){Title = "We are legion",ReleaseDate = new DateTime(2012, 10, 12)},
-        };
-    }   
+#line 2 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\ArbitraryInput.razor"
+      
+    // it is used to us don't add a lot of other parameters, it will add!
+    [Parameter(CaptureUnmatchedValues = true)]
+    public IDictionary<string, object> AdditionalParameters { get; set; }
 
 #line default
 #line hidden
