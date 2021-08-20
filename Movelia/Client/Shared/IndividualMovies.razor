@@ -1,9 +1,22 @@
 <div>
     <p>Title: <b>@Movie.Title</b></p>
     <p>Release Date: <b>@Movie.ReleaseDate.ToString("dd/MM/yyyy")</b></p>
+        @if(DisplayButtons)
+        {
+            <div>
+                <button @onclick="@Delete">
+                    Delete
+                </button>
+            </div>
+        }
 </div>
 @code
 {
     //this parameter will add each movie in index to MovieList
-    [Parameter]public Movie Movie { get; set;}
+    [Parameter]public Movie Movie { get; set; }
+    [Parameter]public bool DisplayButtons { get; set; } = false;
+
+    void Delete(){
+        Console.WriteLine($"Deleting {Movie.Title}");
+    }
 }

@@ -97,10 +97,15 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 6 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\IndividualMovies.razor"
+#line 14 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\IndividualMovies.razor"
  
     //this parameter will add each movie in index to MovieList
-    [Parameter]public Movie Movie { get; set;}
+    [Parameter]public Movie Movie { get; set; }
+    [Parameter]public bool DisplayButtons { get; set; } = false;
+
+    void Delete(){
+        Console.WriteLine($"Deleting {Movie.Title}");
+    }
 
 #line default
 #line hidden
