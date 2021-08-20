@@ -98,10 +98,10 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 10 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Index.razor"
+#line 12 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Index.razor"
  
     private List<Movie> movies;
- protected override void OnInitialized()
+    protected override void OnInitialized()
     {
         movies = new List<Movie>()
         {

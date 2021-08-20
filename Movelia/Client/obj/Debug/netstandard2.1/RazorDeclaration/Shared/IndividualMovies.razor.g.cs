@@ -89,7 +89,7 @@ using Movelia.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
-    public partial class MoviesList : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class IndividualMovies : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,10 +97,9 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\MoviesList.razor"
-      
-    [Parameter] public List<Movie> Movies {get; set;}
-    
+#line 6 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\IndividualMovies.razor"
+ 
+    [Parameter]public Movie Movie { get; set;}
 
 #line default
 #line hidden
