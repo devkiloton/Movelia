@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Movelia.Client.dll": "sha256-M3SBLwrWSsbPKNrNw62W0oAUmSbZpALtw8fwBh2pjhU=",
+      "Movelia.Client.dll": "sha256-gEcoARBLe3uc5Vg7MGVuY0xmwgirYZuBGeL\/xaPMTuM=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -61,7 +61,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "Movelia.Client.pdb": "sha256-QsTBJQsi4owuP5JS+GdX1ZN4ouy7GGmi9NGk46PjpQY=",
+      "Movelia.Client.pdb": "sha256-yp4t7ThNlB6thrmLye72DtIBkOtD5Vxjl8lXsh7eS2c=",
       "Movelia.Shared.pdb": "sha256-Abj3ajJMnkzOuxR\/rtY9UXQ2N3tGWqVO7A2s1bLmO6s="
     },
     "runtime": {

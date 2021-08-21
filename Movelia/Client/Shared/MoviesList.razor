@@ -11,7 +11,7 @@ else if(Movies.Count == 0)
 else
 {
     //the second @ is a Event that uses a lambda expression
-    <input type="checkbox" @onclick="@(() => displayButtons = !displayButtons)"/>
+    <input type="checkbox" @bind="@displayButtons"/>
 
     @foreach (var movie in Movies)
     {
@@ -21,5 +21,5 @@ else
 @code
 {
     [Parameter] public List<Movie> Movies {get; set;}
-    private bool displayButtons = true;
+    private bool displayButtons = false;
 }

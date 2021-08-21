@@ -97,11 +97,10 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 20 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\MoviesList.razor"
-      
+#line 22 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\MoviesList.razor"
+ 
     [Parameter] public List<Movie> Movies {get; set;}
-    private bool displayButtons = true;
-    
+    private bool displayButtons = false;
 
 #line default
 #line hidden
