@@ -102,10 +102,7 @@ using Movelia.Shared.Entities;
     //this parameter will add each movie in index to MovieList
     [Parameter]public Movie Movie { get; set; }
     [Parameter]public bool DisplayButtons { get; set; } = false;
-
-    void Delete(){
-        Console.WriteLine($"Deleting {Movie.Title}");
-    }
+    [Parameter]public EventCallback<Movie> DeleteMovie { get; set;}
 
 #line default
 #line hidden

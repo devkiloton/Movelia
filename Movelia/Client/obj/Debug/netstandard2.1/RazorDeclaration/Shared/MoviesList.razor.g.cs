@@ -99,8 +99,13 @@ using Movelia.Shared.Entities;
 #nullable restore
 #line 22 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\MoviesList.razor"
  
-    [Parameter] public List<Movie> Movies {get; set;}
+    [Parameter]public List<Movie> Movies {get; set;}
     private bool displayButtons = false;
+
+    private void DeleteMovie(Movie movie)
+    {
+        Movies.Remove(movie);
+    }
 
 #line default
 #line hidden

@@ -15,11 +15,16 @@ else
 
     @foreach (var movie in Movies)
     {
-        <IndividualMovies Movie="movie" DisplayButtons="displayButtons"/>
+        <IndividualMovies Movie="movie" DisplayButtons="displayButtons" DeleteMovie="DeleteMovie"/>
     }
 }
 @code
 {
-    [Parameter] public List<Movie> Movies {get; set;}
+    [Parameter]public List<Movie> Movies {get; set;}
     private bool displayButtons = false;
+
+    private void DeleteMovie(Movie movie)
+    {
+        Movies.Remove(movie);
+    }
 }
