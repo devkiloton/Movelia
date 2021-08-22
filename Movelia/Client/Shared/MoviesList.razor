@@ -2,7 +2,8 @@
 but because of async method it will be a null reference -->
 @if(Movies == null)
 {
-    <p>Loading...</p>
+    //it allows us to insert text on the <MoviesList> tag and will write the text here!
+    @ChildContent
 }
 else if(Movies.Count == 0)
 {
@@ -15,12 +16,13 @@ else
 
     @foreach (var movie in Movies)
     {
-        <IndividualMovies Movie="movie" DisplayButtons="displayButtons" DeleteMovie="DeleteMovie"/>
+        <IndividualMovies Movie="movie" DisplayButtons="displayButtons" DeleteMovie="DeleteMovie"></IndividualMovies>
     }
 }
 @code
 {
     [Parameter]public List<Movie> Movies {get; set;}
+    [Parameter]public RenderFragment ChildContent { get; set; }
     private bool displayButtons = false;
 
     private void DeleteMovie(Movie movie)

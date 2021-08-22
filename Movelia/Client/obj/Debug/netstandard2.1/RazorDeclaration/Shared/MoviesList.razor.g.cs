@@ -100,6 +100,7 @@ using Movelia.Shared.Entities;
 #line 22 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\MoviesList.razor"
  
     [Parameter]public List<Movie> Movies {get; set;}
+    [Parameter]public RenderFragment ChildContent { get; set; }
     private bool displayButtons = false;
 
     private void DeleteMovie(Movie movie)
