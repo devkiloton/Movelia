@@ -98,7 +98,7 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Index.razor"
+#line 16 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Index.razor"
  
     private List<Movie> movies;
     protected override void OnInitialized()
@@ -110,6 +110,10 @@ using Movelia.Shared.Entities;
             new Movie(){Title = "Inception",ReleaseDate = new DateTime(2010, 7, 16)},
             new Movie(){Title = "We are legion",ReleaseDate = new DateTime(2012, 10, 12)},
         };
+    }
+    private void AddNewMovie()
+    {
+        movies.Add(new Movie() {Title = "Movie Sample", ReleaseDate = DateTime.Today });
     }   
 
 #line default

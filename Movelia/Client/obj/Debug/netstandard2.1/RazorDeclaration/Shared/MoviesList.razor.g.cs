@@ -107,6 +107,26 @@ using Movelia.Shared.Entities;
         Movies.Remove(movie);
     }
 
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("OnInitialized. Movies.Count = " + Movies.Count.ToString());
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine("OnParameterSet. Movies.Count = " + displayButtons.ToString());
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine("OnAfterRender. firstRender = " + firstRender.ToString());
+    }
+
+    protected override bool ShouldRender()
+    {
+        return true;
+    }
+
 #line default
 #line hidden
 #nullable disable
