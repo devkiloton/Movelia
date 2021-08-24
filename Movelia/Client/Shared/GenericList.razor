@@ -1,0 +1,25 @@
+@typeparam TItem
+<!-- If I don't use the conditional the browser will search for movies,
+but because of async method it will be a null reference -->
+@if(List == null)
+{
+    //it allows us to insert text on the <MoviesList> tag and will write the text here!
+    @ChildContent
+}
+else if(List.Count == 0)
+{
+    <p>There are no movies to show.</p>
+}
+else
+{
+    @foreach (var element in List)
+    {
+        @ElementTemplate(element)
+    }
+}
+@code
+{
+    [Parameter]public RenderFragment ChildContent { get; set; }
+    [Parameter]public List<TItem> List { get; set; }
+    [Parameter]public RenderFragment<TItem> ElementTemplate {get; set;}
+}

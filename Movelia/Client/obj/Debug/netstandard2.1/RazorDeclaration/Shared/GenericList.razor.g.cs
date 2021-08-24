@@ -89,7 +89,7 @@ using Movelia.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
-    public partial class MoviesList : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class GenericList<TItem> : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,15 +97,11 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\MoviesList.razor"
+#line 21 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\GenericList.razor"
  
-    [Parameter]public List<Movie> Movies {get; set;}
-    private bool displayButtons = true;
-
-    private void DeleteMovie(Movie movie)
-    {
-        Movies.Remove(movie);
-    }
+    [Parameter]public RenderFragment ChildContent { get; set; }
+    [Parameter]public List<TItem> List { get; set; }
+    [Parameter]public RenderFragment<TItem> ElementTemplate {get; set;}
 
 #line default
 #line hidden

@@ -1,29 +1,16 @@
-<!-- If I don't use the conditional the browser will search for movies,
-but because of async method it will be a null reference -->
-@if(Movies == null)
-{
-    //it allows us to insert text on the <MoviesList> tag and will write the text here!
-    @ChildContent
-}
-else if(Movies.Count == 0)
-{
-    <p>There are no movies to show.</p>
-}
-else
-{
-    //the second @ is a Event that uses a lambda expression
-    <input type="checkbox" @bind="@displayButtons"/>
+@*//the second @ is a Event that uses a lambda expression*@
+<input type="checkbox" @bind="@displayButtons"/>
 
-    @foreach (var movie in Movies)
-    {
-        <IndividualMovies Movie="movie" DisplayButtons="displayButtons" DeleteMovie="DeleteMovie"></IndividualMovies>
-    }
-}
+<GenericList List="Movies">
+    <ElementTemplate Context="movie">
+        <IndividualMovies Movie="movie" DisplayButtons="displayButtons" DeleteMovie="DeleteMovie"/>
+    </ElementTemplate>
+</GenericList>
+
 @code
 {
     [Parameter]public List<Movie> Movies {get; set;}
-    [Parameter]public RenderFragment ChildContent { get; set; }
-    private bool displayButtons = false;
+    private bool displayButtons = true;
 
     private void DeleteMovie(Movie movie)
     {
