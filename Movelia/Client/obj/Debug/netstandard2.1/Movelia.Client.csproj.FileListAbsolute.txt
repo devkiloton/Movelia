@@ -375,6 +375,6 @@ C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstanda
 C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\Razor\Shared\GenericList.razor.g.cs
 C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\integrity\qmyxi4RFIpWRg9J2G0994yZ1S0qaTRfy_wdAuwpuqgA=.hash
 C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\integrity\Abj3ajJMnkzOuxR-rtY9UXQ2N3tGWqVO7A2s1bLmO6s=.hash
-C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\integrity\eQ6Sh9HPxIazGIWZ9ZqDLidZn_r-QxuoujM7Qqg4xQU=.hash
-C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\integrity\SzthIc1Ts1iTWfVaxFjYizQCo57rIux29Nfgv1RvmXg=.hash
-C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\integrity\aUezhSm16HCHNAf2v4ZescLz4L_PFI15Kn9asdAradQ=.hash
+C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\integrity\ngMICAUxK6mCAPgB4lJHBqjegk_4rvdw7kkMa5Elm3o=.hash
+C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\integrity\j8DFF80G1c05z9ukcmJtCxC7SMetMuSa3Y6nQmmKans=.hash
+C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\obj\Debug\netstandard2.1\integrity\cKAan7zZeusGr69Kn5tqDaGFBDt3xY-_wnLoloL4hOM=.hash

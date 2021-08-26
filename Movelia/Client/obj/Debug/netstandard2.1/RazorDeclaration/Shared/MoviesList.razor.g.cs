@@ -107,21 +107,23 @@ using Movelia.Shared.Entities;
         Movies.Remove(movie);
     }
 
+    //this methods below can be used to trigger http requests
+    //oninitialized initialize the component one time when all parameters were received
     protected override void OnInitialized()
     {
         Console.WriteLine("OnInitialized. Movies.Count = " + Movies.Count.ToString());
     }
-
+    //OnParametersSet is called when all parameters were received after a update
     protected override void OnParametersSet()
     {
-        Console.WriteLine("OnParameterSet. Movies.Count = " + displayButtons.ToString());
+        Console.WriteLine("OnParameterSet. Movies.Count = " + Movies.Count.ToString());
     }
-
+    // OnAfterRender render is called when the component render after the changes(when the html is displayed)
     protected override void OnAfterRender(bool firstRender)
     {
         Console.WriteLine("OnAfterRender. firstRender = " + firstRender.ToString());
     }
-
+    // ShouldRender allows or not the Component to render
     protected override bool ShouldRender()
     {
         return true;
