@@ -98,18 +98,12 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 16 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Index.razor"
+#line 17 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Index.razor"
  
     private List<Movie> movies;
     protected override void OnInitialized()
     {
-        movies = new List<Movie>()
-        {
-            new Movie(){Title = "Spider Man: Far from home",ReleaseDate = new DateTime(2019, 7, 2)},
-            new Movie(){Title = "Moana",ReleaseDate = new DateTime(2016, 11, 23)},
-            new Movie(){Title = "Inception",ReleaseDate = new DateTime(2010, 7, 16)},
-            new Movie(){Title = "We are legion",ReleaseDate = new DateTime(2012, 10, 12)},
-        };
+        movies = repository.GetMovies();
     }
     private void AddNewMovie()
     {
@@ -119,6 +113,7 @@ using Movelia.Shared.Entities;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IRepository repository { get; set; }
     }
 }
 #pragma warning restore 1591

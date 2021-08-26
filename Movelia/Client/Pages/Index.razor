@@ -1,5 +1,6 @@
 ﻿@page "/"
 
+@inject IRepository repository
 <div>
     <h3>Movie</h3>
     <!-- here I invoke the MoviesList component and I set the list
@@ -17,13 +18,7 @@
     private List<Movie> movies;
     protected override void OnInitialized()
     {
-        movies = new List<Movie>()
-        {
-            new Movie(){Title = "Spider Man: Far from home",ReleaseDate = new DateTime(2019, 7, 2)},
-            new Movie(){Title = "Moana",ReleaseDate = new DateTime(2016, 11, 23)},
-            new Movie(){Title = "Inception",ReleaseDate = new DateTime(2010, 7, 16)},
-            new Movie(){Title = "We are legion",ReleaseDate = new DateTime(2012, 10, 12)},
-        };
+        movies = repository.GetMovies();
     }
     private void AddNewMovie()
     {

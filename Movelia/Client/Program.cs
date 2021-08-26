@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Movelia.Client.Helpers;
 
 namespace Movelia.Client
 {
@@ -28,6 +29,7 @@ namespace Movelia.Client
         {
             services.AddSingleton<SingletonService>();
             services.AddTransient<TransientService>();
+            services.AddTransient<IRepository, RepositoryInMemory>();
         }
     }
 }

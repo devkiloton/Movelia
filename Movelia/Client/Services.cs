@@ -7,6 +7,6 @@ namespace Movelia.Client
 
     public class TransientService
     {
-        public int Value { get; set ;}
+        public int Value { get; set ; }
     }
 }
