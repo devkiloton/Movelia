@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace Movelia.Client.Pages
+namespace Movelia.Client.Shared
 {
     #line hidden
     using System;
@@ -97,7 +97,7 @@ using Movelia.Shared.Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 2 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\ArbitraryInput.razor"
+#line 2 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Shared\ArbitraryInput.razor"
       
     // it is used to us don't add a lot of other parameters, it will add!
     [Parameter(CaptureUnmatchedValues = true)]

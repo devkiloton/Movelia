@@ -97,23 +97,6 @@ using Movelia.Shared.Entities;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 16 "C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Client\Pages\Counter.razor"
-       
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-        singleton.Value++;
-        transient.Value++;
-    }
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private TransientService transient { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private SingletonService singleton { get; set; }
     }
 }
 #pragma warning restore 1591
