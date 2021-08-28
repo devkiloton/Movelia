@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\VxVCgQ1MSiSEwyniEt-7Ql8Av2mjyqhlv99WX2kXJJI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vxrfsSpmDsGmOd_yeeYcOxyhJmjPxFWy-Fa9NY2HBVU=.hash",
       "Source": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Movelia.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Movelia.Client.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3DSaGVcLubSUbI5v-MkKAZuofW4Esl8_4NMBAI4cpJ0=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\nCtXBx5u6uaokZIInNtjRa_Vq082EtVxB1O4cgTSvDM=.hash",
       "Source": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Movelia.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Movelia.Client.pdb.br"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BDQwYNVQm3Edd_tPtAlx6MKPOshdOCBDiJdEQzPoWW4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_3SWyu4rg01KCmENWbT6TeNpwRW_6mcH8pTEvbVsAxg=.hash",
       "Source": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
