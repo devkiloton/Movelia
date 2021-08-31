@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Shared\\Movelia.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Yarego Brozek\\Desktop\\Movelia-master\\Movelia\\Shared\\Movelia.Shared.csproj",
       "projectName": "Movelia.Shared",
-      "projectPath": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Shared\\Movelia.Shared.csproj",
+      "projectPath": "C:\\Users\\Yarego Brozek\\Desktop\\Movelia-master\\Movelia\\Shared\\Movelia.Shared.csproj",
       "packagesPath": "C:\\Users\\Yarego Brozek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\Yarego Brozek\\Desktop\\Movelia-master\\Movelia\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

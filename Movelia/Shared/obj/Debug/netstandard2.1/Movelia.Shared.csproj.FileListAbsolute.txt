@@ -7,3 +7,12 @@ C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Shared\obj\Debug\netstanda
 C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.csproj.CoreCompileInputs.cache
 C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.dll
 C:\Users\Yarego Brozek\Desktop\GitHub\Movelia\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.pdb
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\bin\Debug\netstandard2.1\Movelia.Shared.deps.json
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\bin\Debug\netstandard2.1\Movelia.Shared.dll
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\bin\Debug\netstandard2.1\Movelia.Shared.pdb
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.csproj.AssemblyReference.cache
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.AssemblyInfoInputs.cache
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.AssemblyInfo.cs
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.dll
+C:\Users\Yarego Brozek\Desktop\Movelia-master\Movelia\Shared\obj\Debug\netstandard2.1\Movelia.Shared.pdb

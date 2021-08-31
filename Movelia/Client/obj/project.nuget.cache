@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPQ2Ztg3YE/xV1SEE/N+9wl08C4RlqniYBwafDE+6TQGlrDoxRfc2JQVC/rtuMVbfIFlE356Xw0oeHb++3MdVA==",
+  "dgSpecHash": "r4BWvHuEa6GeMovFw28LBMAFKYGwjbmcVUWy2cElXuZMc0arXGb/XpaE/nOHGELVGRDHCuKRU69x1GkREysy8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yarego Brozek\\Desktop\\GitHub\\Movelia\\Movelia\\Client\\Movelia.Client.csproj",
+  "projectFilePath": "C:\\Users\\Yarego Brozek\\Desktop\\Movelia-master\\Movelia\\Client\\Movelia.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yarego Brozek\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\Yarego Brozek\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

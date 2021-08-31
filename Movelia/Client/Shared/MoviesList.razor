@@ -1,3 +1,5 @@
+@inject IJSRuntime js
+
 @*//the second @ is a Event that uses a lambda expression*@
 <input type="checkbox" @bind="@displayButtons"/>
 
@@ -12,9 +14,14 @@
     [Parameter]public List<Movie> Movies {get; set;}
     private bool displayButtons = true;
 
-    private void DeleteMovie(Movie movie)
+    private async Task DeleteMovie(Movie movie)
     {
-        Movies.Remove(movie);
+        await js.MyFunction("custom message");
+        var confirmed = await js.Confirm($"Are you sure you want to delete {movie.Title}?");
+        if(confirmed)
+        {
+            Movies.Remove(movie);
+        }
     }
 
     //this methods below can be used to trigger http requests
